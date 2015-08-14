@@ -130,14 +130,13 @@ Here's a [great list of stats about iOS versions](https://david-smith.org/iosver
 You'll need to use [UIAppearance](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/):
 
 
-    // AppDelegate.m
-    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // AppDelegate.swift
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        UIFont * avenir = [UIFont fontWithName:@"Avenir" size:[UIFont systemFontSize]];
-        [[UILabel appearance] setFont:avenir];
-        [[UINavigationBar appearance] setTitleTextAttributes:@{NSFontAttributeName: avenir}];
-        //You'll need to do this for other classes that display text
-        return YES;
+        let avenir = UIFont(name: "Avenir", size: UIFont.systemFontSize())!
+        UILabel.appearance().font = avenir
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: avenir]
+        return true
     }
 
 ###How can I request some JSON from the web?
