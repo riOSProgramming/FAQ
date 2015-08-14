@@ -142,29 +142,26 @@ You'll need to use [UIAppearance](https://developer.apple.com/library/ios/docume
 ###How can I request some JSON from the web?
 
 
-    //Standard library JSON request to http://httpbin.org
-
-    NSURLSession * session = [NSURLSession sharedSession];
-
+    //Standard library request to http://httpbin.org
+    let session = NSURLSession.sharedSession()
+    
     //Prepare the request
-    NSURL * url = [NSURL URLWithString:@"http://httpbin.org/get"];
-    NSURLRequest * request = [NSURLRequest requestWithURL:url];
-
+    let url = NSURL(string: "http://httpbin.org/get")!
+    let request = NSURLRequest(URL: url)
+    
     //Prepare the data task
-    NSURLSessionDataTask * dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-        //This block will be executed on the main thread once the data task has completed
-        //Status Code is HTTP 200 OK
-        //You have to cast to NSHTTPURLResponse, a subclass of NSURLResponse, to get the status code
-        if ([(NSHTTPURLResponse*)response statusCode] == 200) {
-            NSDictionary * json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-            NSLog(@"%@", json);
-            //The JSON is parsed into standard Cocoa classes such as NSArray, NSDictionary, NSString and NSNumber:
-            NSLog(@"The requested URL was %@", json[@"url"]);
+    let task = session.dataTaskWithRequest(request, completionHandler: { (data, response, error) -> Void in
+        //Warning: this closure is not executed on the main thread, so don't update the UI in here!
+        let httpResponse = response as! NSHTTPURLResponse
+        if httpResponse.statusCode == 200 {
+            let json = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.allZeros, error: nil) as! NSDictionary
+            println(json)
+            println(json["url"]!)
         }
-    }];
-
+    })
+    
     //Begin the task
-    [dataTask resume];
+    task.resume()
 
 `NSURLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [AFNetworking](https://github.com/AFNetworking/AFNetworking) instead as this can reduce the amount of code you have to write:
 
