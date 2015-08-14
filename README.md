@@ -163,18 +163,15 @@ You'll need to use [UIAppearance](https://developer.apple.com/library/ios/docume
     //Begin the task
     task.resume()
 
-`NSURLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [AFNetworking](https://github.com/AFNetworking/AFNetworking) instead as this can reduce the amount of code you have to write:
+`NSURLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [Alamofire](https://github.com/Alamofire/Alamofire) instead as this can reduce the amount of code you have to write:
 
 
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:@"http://httpbin.org/get" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        // Response object is an NSDictionary, like in the previous example
-        NSLog(@"JSON: %@", responseObject);
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        //Handle the error case
-        NSLog(@"Error: %@", error);
-    }];
-
+    Alamofire.request(.GET, "http://httpbin.org/get")
+        .responseJSON { _, _, JSON, _ in
+            println(JSON)
+            let jsonDictionary = JSON as! NSDictionary
+            println(jsonDictionary["url"]!)
+        }
 
 ###I want to build a client app for web service X. How do I get started?
 
