@@ -139,6 +139,8 @@ You'll need to use [UIAppearance](https://developer.apple.com/library/ios/docume
         return true
     }
 
+See a [demo project here](https://github.com/riosprogramming/App-Font-Demo).
+
 ###How can I request some JSON from the web?
 
 
@@ -163,6 +165,8 @@ You'll need to use [UIAppearance](https://developer.apple.com/library/ios/docume
     //Begin the task
     task.resume()
 
+See a [demo project here](https://github.com/riosprogramming/JSON-Demo).
+
 `NSURLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [Alamofire](https://github.com/Alamofire/Alamofire) instead as this can reduce the amount of code you have to write:
 
 
@@ -173,6 +177,8 @@ You'll need to use [UIAppearance](https://developer.apple.com/library/ios/docume
             println(jsonDictionary["url"]!)
         }
 
+
+See a [demo project here](https://github.com/riosprogramming/Alomafire-Demo).
 ###I want to build a client app for web service X. How do I get started?
 
 Firstly, you need to confirm that you can legally access the data and that the service provider is OK with you making the app. Secondly, you need to confirm that the service has an API of some sort that you can use. This may be anything from a JSON/XML REST API to a full iOS SDK. If it doesn't, you may be able to scrape HTML but this will be very unreliable as your app would break if the page layout changed.
