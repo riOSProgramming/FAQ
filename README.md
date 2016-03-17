@@ -107,7 +107,7 @@ Third party options
 ###Where can I get good advice?
 
 * [StackOverflow](http://stackoverflow.com/questions/tagged/ios)
-* [Apple Developer Forums](https://devforums.apple.com/index.jspa)
+* [Apple Developer Forums](https://forums.developer.apple.com)
 * [NSHipster](http://nshipster.com)
 * [objc.io](http://objc.io)
 * [Big Nerd Ranch](https://www.bignerdranch.com)
