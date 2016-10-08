@@ -51,7 +51,7 @@ Yes.
 N.B. These are not websites with individual tutorials, but online courses that you work through 'lesson by lesson'. Some of these may also charge money.
 
 * [Developing iOS 7 Apps for iPhone and iPad](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550) by Stanford (Objective-C)
-* [Developing iOS 9 Apps with Swift](https://itunes.apple.com/ru/course/developing-ios-9-apps-swift/id1104579961) by Stanford (Swift)
+* [Developing iOS 9 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961) by Stanford (Swift)
 * [Complete iOS 8 and Swift course](https://www.udemy.com/complete-ios-developer-course/) by Udemy
 * [iOS tutorials on Lynda](http://www.lynda.com/iOS-training-tutorials/413-0.html)
 
