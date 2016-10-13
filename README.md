@@ -72,6 +72,7 @@ Start out with Xcode, even if you've used JetBrains products before. Xcode conta
 * [NSHipster](http://nshipster.com)
 * [objc.io](http://objc.io)
 * [Big Nerd Ranch](https://www.bignerdranch.com)
+* [RayWenderlich.com](http://www.raywenderlich.com)
 
 ###Do I have to use storyboards?
 
@@ -112,6 +113,7 @@ Third party options
 * [objc.io](http://objc.io)
 * [Big Nerd Ranch](https://www.bignerdranch.com)
 * [/r/iosprogramming](https://reddit.com/r/iosprogramming)
+* [RayWenderlich.com](http://www.raywenderlich.com)
 
 ###Do I need to support iOS version X?
 
@@ -360,6 +362,7 @@ If you *really* want to do everything in code, Apple has a [guide here](https://
 * [Ash Furrow](http://ashfurrow.com)
 * [Brent Simmons](http://inessential.com)
 * [NSBlog (Mike Ash)](https://mikeash.com/pyblog/)
+* [RayWenderlich.com](http://www.raywenderlich.com)
 * **To be continued...**
 
 ###What podcasts can I listen to?
@@ -383,6 +386,7 @@ If you *really* want to do everything in code, Apple has a [guide here](https://
 * [The Record](http://therecord.co)
 * [Release Notes](http://releasenotes.tv)
 * [Springboard](http://springboardshow.com) (finished?)
+* [Under the Radar](https://www.relay.fm/radar)
 
 ####Apple and technology general
 
