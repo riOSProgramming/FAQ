@@ -362,7 +362,6 @@ If you *really* want to do everything in code, Apple has a [guide here](https://
 * [Ash Furrow](http://ashfurrow.com)
 * [Brent Simmons](http://inessential.com)
 * [NSBlog (Mike Ash)](https://mikeash.com/pyblog/)
-* [RayWenderlich.com](http://www.raywenderlich.com)
 * **To be continued...**
 
 ###What podcasts can I listen to?
