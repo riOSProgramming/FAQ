@@ -1,8 +1,10 @@
+*This FAQ has been forked from [this repository](https://github.com/programmingthomas/FAQ). So giving the credit where credit is due - thanks u/ProgrammingThomas!*
+
+*This FAQ should receive occasional updates from [its own repository](https://github.com/riosprogramming/FAQ). So feel free to create pull requests to update/expand this FAQ.*
+
+</br>
+
 # iOS Programming FAQ
-
-This FAQ has been forked from [this repository](https://github.com/programmingthomas/FAQ). So giving the credit where credit is due - thanks u/ProgrammingThomas!
-
-This FAQ should receive occasional updates from [its own repository](https://github.com/riosprogramming/FAQ). So feel free to create pull requests to update/expand this FAQ.
 
 ## Basics
 
@@ -14,41 +16,41 @@ The most valuable source of information available to iOS Developers is [Apple's 
 
 Yes.
 
-### But I heard that I can use technology X to do iOS development on Windows/Linux/Google Glass.
+### [But I heard that I can use technology X to do iOS development on Windows/Linux/Google Glass.](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+windows+OR+linux+OR+xamarin)
 
-Irrespective of what you use to write your app, you will still need Xcode on a Mac to compile your app and submit it to the App Store.
+You will still need **Xcode on a Mac** to compile your app and submit it to the App Store, irrespective of what you use to write your app.
 
-### Where can I get the developer tools?
+### [Where can I get the developer tools?](https://developer.apple.com/download/)
 
 You can download Xcode from the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). You can also download the [Xcode betas](https://developer.apple.com/xcode/downloads/) if you're a registered developer (you don't need to be a paid member).
 
-### Which Mac should I get?
+### [Which Mac should I get?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8)
 
 Depends what your budget is. Any Mac that can run the latest version of OS X and has more than 4GB of RAM will do. A Mac mini or MacBook Air will suffice.
 
-### Is Xcode usable on a MacBook?
+### [Is Xcode usable on a MacBook?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+%22macbook%22+OR+%22macbook+air%22+OR+%22mac+mini%22)
 
 Xcode demands a lot of screen space, especially when editing storyboards. It is, however, perfectly usable on a MacBook display, even the 11" MacBook Air. If you've got a retina MacBook Pro you can change the display's resolution so that you get more screen space, which can be very useful when editing storyboards.
 
-### Do I need an iOS device?
+### [Do I need an iOS device?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+without+device)
 
 Yes, it's imperative that you test your app on a real device before you submit it to the App Store. Besides, you'll probably want to get a feel for how other iOS apps work before you write one.
 
-### Which iOS device?
+### [Which iOS device?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+which+device)
 
 Provided that you can run iOS 8 you will be fine. This includes the iPod touch 5G, iPhone 4S+ and iPad 2+. If you're tight on budget then an iPad Mini with Retina Display or an iPod touch is the best option.
 
 ### Do I have to pay $99 for the developer license to get my app on the App Store?
 
-Yes, but you can test your app on your own devices for free, as of Xcode 7 and iOS 9.
+**Yes**, but you can *test* your app *on your own devices for free*, as of Xcode 7 and iOS 9.
 
 ### So you're saying that I need to buy a Mac, iOS device and developer license?
 
 Yes.
 
-### Where can I find good courses to get me started?
+### [Where can I find good courses to get me started?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+beginner+tutorials+OR+%22resources%22)
 
-N.B. These are not websites with individual tutorials, but online courses that you work through 'lesson by lesson'. Some of these may also charge money.
+These are not websites with individual tutorials, but online courses that you work through 'lesson by lesson'. Some of these may also charge money.
 
 * [Developing iOS 7 Apps for iPhone and iPad](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550) by Stanford (Objective-C)
 * [Developing iOS 9 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961) by Stanford (Swift)
@@ -57,11 +59,11 @@ N.B. These are not websites with individual tutorials, but online courses that y
 
 ## Tools
 
-### Is PaintCode any good?
+### [Is PaintCode any good?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+paintcode)
 
 Yes - its great! Opacity and Opacity Express are cheaper alternatives that also export Objective-C rendering code, and I find the vector editor in Opacity is better. However, only use PaintCode if it is going to save you time and resources - if you aren't using much beyond the default iOS icons or you don't have dynamic graphics you probably don't need it.
 
-### Should I use AppCode or Xcode?
+### [Should I use AppCode or Xcode?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+appcode)
 
 Start out with Xcode, even if you've used JetBrains products before. Xcode contains all the tools you need to build an iOS app, but AppCode contains a lot of great extra features. For example, if you need strong refactoring support then you should give AppCode a go.
 
@@ -74,7 +76,7 @@ Start out with Xcode, even if you've used JetBrains products before. Xcode conta
 * [Big Nerd Ranch](https://www.bignerdranch.com)
 * [RayWenderlich.com](http://www.raywenderlich.com)
 
-### Do I have to use storyboards?
+### [Do I have to use storyboards?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+storyboards)
 
 No, you can alternatively use XIB files or generate your user interface in code. However, if you've got a small app storyboards can be very useful for visualising the structure and flow of the app.
 
@@ -117,7 +119,7 @@ Third party options
 
 ### Do I need to support iOS version X?
 
-Apple's recommended way of support for iOS is current and previous versions. So at any given time you should target at most two major iOS versions.
+Apple recommends that you support the current and previous version of iOS; so at any given time, you should target at most two major iOS versions.
 
 Here's a [great list of stats about iOS versions](https://david-smith.org/iosversionstats/).
 
@@ -127,59 +129,60 @@ Here's a [great list of stats about iOS versions](https://david-smith.org/iosver
 
 ## Common tasks
 
-### How can I change my apps' font?
+### [How can I change my apps' font?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+change+app+font)
 
-You'll need to use [UIAppearance](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/):
+You'll need to use the [UIAppearance](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/) APIs:
 
+```objc
+// AppDelegate.m
 
-    // AppDelegate.m
-    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-        // Override point for customization after application launch.
-        UIFont * avenir = [UIFont fontWithName:@"Avenir" size:[UIFont systemFontSize]];
-        [[UILabel appearance] setFont:avenir];
-        [[UINavigationBar appearance] setTitleTextAttributes:@{NSFontAttributeName: avenir}];
-        //You'll need to do this for other classes that display text
-        return YES;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    ...
+    
+    UIFont *avenir = [UIFont fontWithName:@"Avenir" size:[UIFont systemFontSize]];
+    [UILabel appearance].font = avenir;
+    [UINavigationBar appearance].titleTextAttributes = @{NSFontAttributeName: avenir};
+    // You'll need to do this for other classes that display text
+    ...
+    
+    return YES;
+}
+```
+
+### [How can I request some JSON from the web?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+working+with+json)
+
+If you're an absolute beginner, you may wish to look into more convenient to use libraries like AFNetworking, but this is how you do make a basic request with no third-party code:
+
+```objc
+// Standard library JSON request to http://httpbin.org
+// Prepare the request
+NSURL *url = [NSURL URLWithString:@"http://httpbin.org/get"];
+NSURLRequest *request = [NSURLRequest requestWithURL:url];
+
+[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+    // This block will be executed on the main thread once the data task has completed.
+    
+    // You have to cast response to NSHTTPURLResponse, a subclass of NSURLResponse, to get the status code.
+    if ([(NSHTTPURLResponse*)response statusCode] == 200) {
+        // JSON is parsed into standard Cocoa classes such as NSArray, NSDictionary, NSString and NSNumber.
+        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        NSLog(@"%@", json);
     }
-
-### How can I request some JSON from the web?
-
-
-    //Standard library JSON request to http://httpbin.org
-
-    NSURLSession * session = [NSURLSession sharedSession];
-
-    //Prepare the request
-    NSURL * url = [NSURL URLWithString:@"http://httpbin.org/get"];
-    NSURLRequest * request = [NSURLRequest requestWithURL:url];
-
-    //Prepare the data task
-    NSURLSessionDataTask * dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-        //This block will be executed on the main thread once the data task has completed
-        //Status Code is HTTP 200 OK
-        //You have to cast to NSHTTPURLResponse, a subclass of NSURLResponse, to get the status code
-        if ([(NSHTTPURLResponse*)response statusCode] == 200) {
-            NSDictionary * json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-            NSLog(@"%@", json);
-            //The JSON is parsed into standard Cocoa classes such as NSArray, NSDictionary, NSString and NSNumber:
-            NSLog(@"The requested URL was %@", json[@"url"]);
-        }
-    }];
-
-    //Begin the task
-    [dataTask resume];
+}] resume]; // "resume" begins the task
+```
 
 `NSURLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [AFNetworking](https://github.com/AFNetworking/AFNetworking) instead as this can reduce the amount of code you have to write:
 
-
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:@"http://httpbin.org/get" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        // Response object is an NSDictionary, like in the previous example
-        NSLog(@"JSON: %@", responseObject);
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        //Handle the error case
-        NSLog(@"Error: %@", error);
-    }];
+```objc
+AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+[manager GET:@"http://httpbin.org/get" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    // Response object is an NSDictionary, like in the previous example
+    NSLog(@"JSON: %@", responseObject);
+} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    //Handle the error case
+    NSLog(@"Error: %@", error);
+}];
+```
 
 
 ### I want to build a client app for web service X. How do I get started?
@@ -196,43 +199,35 @@ In general, the programming language you work in is only half of the challenge o
 
 If you're considering a non-Apple language (i.e. not Objective-C or Swift), you probably need to consider that the learning curve will be greater, even if you're already familiar with the language. This is because you will have to learn Cocoa Touch, the framework, as well as the various patterns that it uses. These patterns (delegation, for example) may not be familiar in your language of choice, so you will have to adapt to using them whereas they will come more naturally if you learn them in Objective-C or Swift.
 
-### Should I learn Objective-C or Swift first?
+### [Should I learn Objective-C or Swift first?](https://www.reddit.com/r/iOSProgramming/comments/4vnm0e/should_i_use_swift_or_objectivec_megathread/)
 
 TL;DR Swift.
 
-For programmers at any level Swift is easier to learn. The language is small, concise and will be familiar to people that have worked in C-like languages before. But you mustn't dismiss Objective-C.
+For programmers at any level, Swift is easier to learn. The language is small, concise, and will be familiar to people that have worked in C-like languages before. But you mustn't dismiss Objective-C.
 
-The majority of iOS development tutorials cover using Cocoa Touch frameworks rather than the language. Everything written pre-June 2014 will be in Objective-C, so any programmer coming to the platform should still be familiar with it.
+The majority of iOS development tutorials cover using Cocoa Touch frameworks rather than the language. Everything written pre-June 2014 will be in Objective-C, so any serious programmer coming to the platform should still be familiar with it.
 
 There is a [summary of common patterns](https://github.com/programmingthomas/equivalent) in both languages to make it easier for beginners to translate between the two.
 
-### Can I write an iOS app in JavaScript?
+### Can I write an iOS app in…
 
-Yes, with [PhoneGap](http://phonegap.com) or [Appcelerator](http://www.appcelerator.com/titanium/). If you're coming from a React background, consider [React Native](https://facebook.github.io/react-native/).
+- Javascript: [PhoneGap](http://phonegap.com) or [Appcelerator](http://www.appcelerator.com/titanium/). If you're coming from a React background, consider [React Native](https://facebook.github.io/react-native/).
+- Ruby: [RubyMotion](http://www.rubymotion.com)
+- Java: [XMLVM](http://www.xmlvm.org/iphone/)
+- Python: You can write games in Python using [Kivy](http://kivy.org/#home). You can also write and run Python on your iOS device with [Pythonista](http://omz-software.com/pythonista/).
 
-### Can I write an iOS app in Ruby?
-
-Yes, with [RubyMotion](http://www.rubymotion.com).
-
-### Can I write an iOS app in Java?
-
-Yes, with [XMLVM](http://www.xmlvm.org/iphone/).
-
-### Can I write an iOS app in Python?
-
-You can write games in Python using [Kivy](http://kivy.org/#home). You can also write and run Python on your iOS device with [Pythonista](http://omz-software.com/pythonista/).
-
-### Should I write my app with Xamarin?
+### [Should I write my app with Xamarin?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+xamarin)
 
 If you are targeting multiple platforms or the majority of your app's code is 'business logic' then Xamarin may be a really good option, especially if you are already familiar with C#.
 
-### Is there an easy reference for Objective-C block syntax?
+### Block / closure syntax is confusing!
 
-<http://fuckingblocksyntax.com> or <http://goshdarnblocksyntax.com>.
+It sure is. Have no fear:
 
-### Is there an easy reference for Swift closure syntax?
+- Objective-C blocks: http://goshdarnblocksyntax.com/
+- Swift closures: http://goshdarnclosuresyntax.com/
 
-<http://fuckingclosuresyntax.com> or <http://goshdarnclosuresyntax.com>.
+^^^or ^^^just ^^^`fucking_____syntax.com`
 
 ### Why do Foundation classes start with NS?
 
@@ -242,65 +237,70 @@ Objective-C doesn't support namespaces, so all classes are prefixed with the fra
 
 Methods that begin with a `+` are static class methods and are not tied to a particular instance of a class. Class methods are used as:
 
-
-    // UIView method declaration
-    + (void)animateWithDuration:(NSTimeInterval)duration animations:(void(^)(void))animations;
-    // Is used as:
-    [UIView animateWithDuration:x animations:^{ /* Animations go here */}];
+```objc
+// This method declaration…
++ (void)animateWithDuration:(NSTimeInterval)duration animations:(void(^)(void))animations;
+// is used like:
+[UIView animateWithDuration:x animations:^{ /* Animations go here */}];
+```
 
 Methods that begin with a `-` are instance methods, and are related to a single instance of a class:
 
+```objc
+// This method declaration…
+- (void)addSubview:(UIView*)subview;
+// is used like:
+[someViewInstance addSubview:someSubview];
+```
 
-    // UIView method declaration:
-    - (void)addSubview:(UIView*)subview;
-    // Is used as:
-    [someViewInstance addSubview:someSubview];
+The same feature exists in Swift, but the syntax is a little less bizarre. All instance methods just use `func` whereas all class methods use `class func`. There's also `static func` which behaves a bit differently.
 
-The same feature exists in Swift, however the syntax is a little less bizarre. All instance methods just use `func` whereas all static class methods use `class func`.
+### What are extensions / categories?
 
-### What are extensions?
+*Quick note: "category" and "extension" are the same thing, for the scope of this FAQ.*
 
-Unlike many other object-oriented programming languages Objective-C has a dynamic runtime that you can use to add methods to existing classes. This reduces the need for subclassing, so can simplify your class hierarchies.
+Unlike many other object-oriented programming languages, Objective-C has a dynamic runtime that you can use to add methods to existing classes. This reduces the need for subclassing, so can simplify your class hierarchies.
 
 Xcode provides a template for extensions, but here is a basic implementation of a map function for `NSArray`:
 
+```objc
+// NSArray+FAQ.h
 
-    // NSArray+FAQ.h
+@interface NSArray (FAQ)
 
-    @interface NSArray (FAQ)
+/// @param mapper An Objective-C block which maps objects in the original array to objects in the new array
+/// @return An array of mapped objects
+- (NSArray*)map:(id(^)(id))mapper;
 
-    /**
-     @param mapper An Objective-C block which maps objects in the original array to objects in the new array
-     @return An array of mapped objects
-    */
-    - (NSArray*)faq_map:(id(^)(id))mapper;
+@end
 
-    @end
+// NSArray+FAQ.m
 
-    // NSArray+FAQ.m
+@implementation NSArray (FAQ)
 
-    @implementation NSArray (FAQ)
-
-    - (NSArray*)faq_map:(id (^)(id))mapper {
-        NSMutableArray * array = [NSMutableArray arrayWithCapacity:self.count];
-        for (id object in self) {
-            [array addObject:mapper(object)];
-        }
-        return array;
+- (NSArray*)map:(id (^)(id))mapper {
+    NSMutableArray *array = [NSMutableArray array];
+    for (id object in self) {
+        [array addObject:mapper(object)];
     }
+    return array;
+}
 
-    @end
+@end
 
-    //Usage:
+// SomewhereElse.m
 
-    #import "NSArray+FAQ.h"
+#import "NSArray+FAQ.h"
 
-    NSArray * numbers = @[@1, @2, @3, @4];
-    NSArray * strings = [numbers faq_map:^id(id object) {
-        return [object stringValue];
-    }];
+...
 
-Apple recommends that if you are writing your own extension methods that you use three letter prefixes (like with class names) so that you avoid clashing with other methods.
+NSArray *numbers = @[@1, @2, @3, @4];
+NSArray *strings = [numbers map:^id(NSNumber *num) {
+    return num.stringValue;
+}];
+```
+
+Apple recommends that you use three letter prefixes when writing your own extensions (like with class names) to avoid clashing with other methods.
 
 ### Can I write an app for the Apple Watch in Objective-C?
 
@@ -348,9 +348,11 @@ The [Human Interface Guidelines](https://developer.apple.com/library/prerelease/
 
 ### I heard Interface Builder is evil. How do I do everything in code?
 
-Firstly, IB makes many design tasks much easier (especially when setting up Auto Layout constraints) than writing everything in code. The most common complaints when working with IB are that Storyboards prevent you from reusing common views easily without copy/pasting and they don't place nicely with source control. Generally beginners should start out with Storyboards/XIBs before trying to create everything in code.
+Firstly, IB makes many design tasks much easier (especially when setting up Auto Layout constraints) than writing everything in code. The most common complaints when working with IB are that Storyboards prevent you from reusing common views easily without copy/pasting and they don't place nicely with source control. **Generally beginners should start out with Storyboards/XIBs before trying to create everything in code.**
 
-If you *really* want to do everything in code, Apple has a [guide here](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/ViewLoadingandUnloading/ViewLoadingandUnloading.html#//apple_ref/doc/uid/TP40007457-CH10-SW36).
+If you *really* want to do everything in code, Apple has a guide [here](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/ViewLoadingandUnloading/ViewLoadingandUnloading.html#//apple_ref/doc/uid/TP40007457-CH10-SW36).
+
+However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https://github.com/SnapKit/Masonry) for Objective-C, and [SnapKit](https://github.com/SnapKit/SnapKit) for Swift.
 
 ## Community
 
@@ -368,6 +370,8 @@ If you *really* want to do everything in code, Apple has a [guide here](https://
 
 #### Programming specific
 
+* [Runtime](https://spec.fm/podcasts/runtime)
+* [Swift Unwrapped](https://spec.fm/podcasts/swift-unwrapped)
 * [Build and Analyze](http://5by5.tv/buildanalyze) (finished)
 * [Build Phase](http://podcasts.thoughtbot.com/buildphase)
 * [CocoaConf](http://cocoaconf.com/podcast)
@@ -408,6 +412,7 @@ The answer for most people is yes. The vast majority of CocoaPods are licensed u
 
 ### Any great CocoaPods that I should know about?
 
+* [Masonry](https://github.com/SnapKit/Masonry) or [SnapKit](https://github.com/SnapKit/SnapKit) - Makes dealing with AutoLayout a breeze.
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) - library that handles all your networking needs
 * [FMDB](https://github.com/ccgus/fmdb) - Objective-C wrapper for SQLite
 * [GSKeychain](https://github.com/goosoftware/GSKeychain) - very simple interface for handling keychain operations
@@ -462,6 +467,7 @@ If there is a copyright issue (i.e. they're purporting to be you, or they've lit
 
 ### I'm looking for a job/I want to hire someone. Where should I look?
 
+* The weekly Job Ads thread in [/r/iOSProgramming](https://reddit.com/r/iOSProgramming)
 * [Core Inituition Job Board](http://jobs.coreint.org)
 * [iOS Dev Weekly](http://iosdevweekly.com) lists jobs listings in its mailing list
 * [Stack Overflow Job Board](http://careers.stackoverflow.com/)
