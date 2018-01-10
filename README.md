@@ -95,7 +95,7 @@ Third party options
 
 * **[FMDB](https://github.com/ccgus/fmdb)**. A SQLite wrapper that works with both Objective-C and SQLite. Instead of letting Core Data manage your model objects you can create your own model objects from the results of SQL queries. This means that you can use your own concurrency model (although FMDatabaseQueue is a super easy solution to thread safety). If you're interested in something somewhere between FMDB and Core Data you might want to try Marco Arment's [FCModel](https://github.com/marcoarment/FCModel), which is based off of Brent Simmons' description of [how he uses FMDB](http://www.objc.io/issue-4/SQLite-instead-of-core-data.html).
 * **[Realm](https://realm.io)** is a 'mobile first database' and aims to reduce the workload of the developer. It fully supports concurrency and in some cases may offer better performance than SQLite based frameworks
-* **[Parse](https://parse.com)** is an alternative to CloudKit from Facebook, and supports many of the same features, but supports other mobile platforms. Again, the user's data is not stored on the device
+* **[Firebase](https://firebase.google.com/)** is an alternative to CloudKit from Google, and supports many of the same features, but supports other mobile platforms. Again, the user's data is not stored on the device
 
 ### What frameworks should I use for my game?
 
