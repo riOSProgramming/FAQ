@@ -8,7 +8,7 @@
 
 ## Basics
 
-The most valuable source of information available to iOS Developers is [Apple's Developer Library](https://developer.apple.com/library/ios/navigation/). This contains thousands of documents explaining every single function in the SDK, hundreds of sample applications and several years of WWDC videos. If you've got a problem, this should always be the first place that you should look.
+The most valuable source of information available to iOS Developers is [Apple Developer Documentation](https://developer.apple.com/documentation). This contains thousands of documents explaining every single function in the SDK, hundreds of sample applications and several years of WWDC videos. If you've got a problem, this should always be the first place that you should look.
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ You can download Xcode from the [Mac App Store](https://itunes.apple.com/us/app/
 
 ### [Which Mac should I get?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8)
 
-Depends what your budget is. Any Mac that can run the latest version of OS X and has more than 4GB of RAM will do. A Mac mini or MacBook Air will suffice.
+Depends what your budget is. Any Mac that can run the latest version of macOS and has more than 4GB of RAM will do. A Mac mini or MacBook Air will suffice.
 
 ### [Is Xcode usable on a MacBook?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+%22macbook%22+OR+%22macbook+air%22+OR+%22mac+mini%22)
 
@@ -89,7 +89,7 @@ The iOS SDK includes:
 * **Core Data**. A framework that provides a generalised way of storing your object graph in SQLite or XML files. For a lot of  apps this is the good solution because you are able to take advantage of `NSFetchedResultsController` to make your table/collection views really slick and update automatically. Unlike other technologies Core Data has a very strict [concurrency model](https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Conceptual/CoreData/Concurrency.html), which you must know about before you get started, as it can cause issues down the line.
 * **NSUserDefaults**. Don't store your object graph in NSUserDefaults, as this is a simple key-value store that is great for storing settings. Do not store sensitive data such as credentials, OAuth tokens or in-app purchase receipts on NSUserDefaults - use [Keychain](https://developer.apple.com/library/ios/documentation/Security/Conceptual/keychainServConcepts/02concepts/concepts.html) for this instead.
 * **SQLite**. Core Data is based on SQLite, which is the most common database used in iOS apps. SQLite offers superb performance, has very low memory usage, and is well supported. It has a C based API, so please read the comments below on third-party wrappers
-* **CloudKit**. Available for iOS 8+ and OS X 10.10+, CloudKit stores user's data in iCloud either publicly or privately. A JavaScript API also exists for it, which allows you to build a web app that partners with your iOS app
+* **CloudKit**. Available for iOS 8+ and macOS 10.10+, CloudKit stores user's data in iCloud either publicly or privately. A JavaScript API also exists for it, which allows you to build a web app that partners with your iOS app
 
 Third party options
 
@@ -101,8 +101,9 @@ Third party options
 
 * **[Unity](https://unity3d.com)** allows you to write cross platform 2/3D games in C# or JavaScript. It provides the vast majority of the tools that you need to get started, and is appropriate for most iOS games
 * **[Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4)** offers a free alternative to Unity, but you have to pay a 5% royalty fee. Like Unity you can port your games to a variety of platforms
-* **SpriteKit** is a framework for iOS 7+ and OS X 10.9+ that allows for the development of sprite based 2D games in Xcode. If you aren't bothered about platform lock in and you want to develop a 2D game then this is probably your best bet
-* **SceneKit** is in OS X 10.8+ and iOS 8+. It can integrate with SpriteKit and hugely simplifies the amount of work needed to get 3D graphics on the screen (compared to OpenGL or Metal). If your developing a casual 3D game then SceneKit is a great option
+* **[SpriteKit](https://developer.apple.com/spritekit/)** is a framework for iOS 7+ and macOS 10.9+ that allows for the development of sprite based 2D games in Xcode. If you aren't bothered about platform lock in and you want to develop a 2D game then this is probably your best bet
+* **[SceneKit](https://developer.apple.com/scenekit/)** is in macOS 10.8+ and iOS 8+. It can integrate with SpriteKit and hugely simplifies the amount of work needed to get 3D graphics on the screen (compared to OpenGL or Metal). If you're developing a casual 3D game then SceneKit is a great option
+* **[GameKit](https://developer.apple.com/documentation/gamekit)** is in iOS 3.0+ and macOS 10.8+. Post scores and achievements, display leaderboards, and make your game multiplayer.
 * **OpenGL/Metal** are the low-level APIs available on iOS for 3D graphics. Most developers will not need to use Metal as this is primarily targeted at game engine developers (and requires a lot more work to do basic 3D graphics). OpenGL is now reasonably easy to get started with thanks to GLKit (iOS 5+) but you still have to do a lot of C and manual memory management. For most casual games SpriteKit or SceneKit are better solutions, and for more complex games it will be easier to use a ready made engine like Unity. However, OpenGL is a good way of learning how 3D graphics work
 * **Cocos2D** is a framework similar to SpriteKit (it allows you to develop 2D games in Objective-C) however has the benefit of being cross platform. Cocos2D is a little older in its API style than SpriteKit, however has a wealth of tutorials and documentation available for it
 
@@ -172,7 +173,7 @@ NSURLRequest *request = [NSURLRequest requestWithURL:url];
 }] resume]; // "resume" begins the task
 ```
 
-`NSURLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [AFNetworking](https://github.com/AFNetworking/AFNetworking) instead as this can reduce the amount of code you have to write:
+`NSURLSession` was introduced in iOS 7 and macOS Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [AFNetworking](https://github.com/AFNetworking/AFNetworking) instead as this can reduce the amount of code you have to write:
 
 ```objc
 AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -232,7 +233,7 @@ It sure is. Have no fear:
 
 ### Why do Foundation classes start with NS?
 
-Objective-C doesn't support namespaces, so all classes are prefixed with the framework or developer abbreviation. NS = NextStep, which is the company that Apple bought in the 90s and was used to develop OS X and iOS. For your own classes Apple recommends that you use your own [two or three](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-1002226-BBCJECED) letters prefix, especially if you publish the code.
+Objective-C doesn't support namespaces, so all classes are prefixed with the framework or developer abbreviation. NS = NextStep, which is the company that Apple bought in the 90s and was used to develop macOS and iOS. For your own classes Apple recommends that you use your own [two or three](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-1002226-BBCJECED) letters prefix, especially if you publish the code.
 
 ### What is the difference between `+` and `-` methods in Objective-C?
 
@@ -335,7 +336,7 @@ For most developers the answer is probably not. There are three main reasons to 
 
 ### What apps are good for UI design?
 
-Most vector/image editors will work well. [Sketch](https://bohemiancoding.com/sketch/), [Photoshop](http://www.photoshop.com), [Pixelmator](http://pixelmator.com) and [Opacity](http://likethought.com/opacity/) are all great options on OS X. You may also like to try Facebook's [Origami](https://facebook.github.io/origami/) for interaction design. You can also try out Apple's Keynote for prototyping (watch ["Fake it till you make it"](https://developer.apple.com/videos/play/wwdc2014/223/) video on how to do that).
+Most vector/image editors will work well. [Sketch](https://bohemiancoding.com/sketch/), [Photoshop](http://www.photoshop.com), [Pixelmator](http://pixelmator.com) and [Opacity](http://likethought.com/opacity/) are all great options on macOS. You may also like to try Facebook's [Origami](https://facebook.github.io/origami/) for interaction design. You can also try out Apple's Keynote for prototyping (watch ["Fake it till you make it"](https://developer.apple.com/videos/play/wwdc2014/223/) video on how to do that).
 
 ### Any good design guides or blogs?
 
@@ -365,6 +366,7 @@ However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https
 * [Ash Furrow](http://ashfurrow.com)
 * [Brent Simmons](http://inessential.com)
 * [NSBlog (Mike Ash)](https://mikeash.com/pyblog/)
+* [Before I forget (Craig Grummitt)](https://craiggrummitt.com)
 * **To be continued...**
 
 ### What podcasts can I listen to?
@@ -382,14 +384,14 @@ However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https
 * [Edge Cases](http://edgecasesshow.com)
 * [Identical Cousins](http://identicalcousins.net) (finished)
 * [iDeveloper](http://ideveloper.tv)
-* [iOhYes](http://iohyespodcast.com)
+* [iOhYes] (finished)
 * [iPhreaks](http://iphreaksshow.com)
 * [Iterate](http://www.imore.com/iterate)
 * [NSBrief](http://nsbrief.com)
 * [Ray Wenderlich](http://www.raywenderlich.com/rwpodcast)
 * [The Record](http://therecord.co)
 * [Release Notes](http://releasenotes.tv)
-* [Springboard](http://springboardshow.com) (finished?)
+* [Springboard] (finished?)
 * [Under the Radar](https://www.relay.fm/radar)
 
 #### Apple and technology general
@@ -405,7 +407,7 @@ However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https
 
 ### Where can I find great third party code?
 
-[CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager used by Apple developers that makes it really easy to integrate open source code into your iOS or OS X app. Several sites, such as [Cocoa Controls](https://www.cocoacontrols.com/platforms/ios/controls?cocoapods=t) keep track of these.
+[CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager used by Apple developers that makes it really easy to integrate open source code into your iOS or macOS app. Several sites, such as [Cocoa Controls](https://www.cocoacontrols.com/platforms/ios/controls?cocoapods=t) keep track of these.
 
 ### Should I use CocoaPods/third party code?
 
