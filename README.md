@@ -365,6 +365,7 @@ However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https
 * [Ash Furrow](http://ashfurrow.com)
 * [Brent Simmons](http://inessential.com)
 * [NSBlog (Mike Ash)](https://mikeash.com/pyblog/)
+* [iOS Dev Directory](https://iosdevdirectory.com) has lots of blogs to read
 * **To be continued...**
 
 ### What podcasts can I listen to?
