@@ -35,3 +35,9 @@ Here are some courses. Some of them are old, but they're still relevant if you'r
 - [Complete iOS 11 and Swift course - Udemy](https://www.udemy.com/complete-ios-11-developer-course/) by Rob Percival
 - [iOS 11 & Swift 4 - The Complete iOS App Development Bootcamp - Udemy](https://www.udemy.com/ios-11-app-development-bootcamp/) by Angela Yu
 - [iOS tutorials on Lynda](http://www.lynda.com/iOS-training-tutorials/413-0.html)
+
+## Swift or Objective-C?
+
+The general consensus is if you're learning your first or second programming language, you should start with Swift.
+
+See [this post](https://www.reddit.com/comments/4vnm0e) for a collective list of most of the times this has been asked here.
