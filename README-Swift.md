@@ -43,7 +43,7 @@ You can download Xcode from the [Mac App Store](https://itunes.apple.com/us/app/
 
 ### [Which Mac should I get?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8)
 
-Depends what your budget is. Any Mac that can run the latest version of OS X and has more than 4GB of RAM will do. A Mac mini or MacBook Air will suffice.
+Depends what your budget is. Any Mac that can run the latest version of macOS and has more than 4GB of RAM will do. A Mac mini or MacBook Air will suffice.
 
 ### [Is Xcode usable on a MacBook?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+%22macbook%22+OR+%22macbook+air%22+OR+%22mac+mini%22)
 
@@ -55,7 +55,7 @@ Yes, it's imperative that you test your app on a real device before you submit i
 
 ### [Which iOS device?](https://www.google.com/search?q=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&rlz=1C5CHFA_enUS726US726&oq=site%3Areddit.com%2Fr%2FiOSProgramming+which+mac&aqs=chrome..69i57j69i58.21749j0j7&sourceid=chrome&ie=UTF-8#newwindow=1&q=site:reddit.com/r/iOSProgramming+which+device)
 
-Provided that you can run iOS 8 you will be fine. This includes the iPod touch 5G, iPhone 4S+ and iPad 2+. If you're tight on budget then an iPad Mini with Retina Display or an iPod touch is the best option.
+Provided that you can run iOS 11 you will be fine. This includes the iPod touch 6th generation, iPhone 5S+ and iPad Air 2+. If you're tight on budget then an iPad 9.7 inch or an iPod touch is the best option.
 
 ### Do I have to pay $99 for the developer license to get my app on the App Store?
 
@@ -69,10 +69,10 @@ Yes.
 
 These are not websites with individual tutorials, but online courses that you work through 'lesson by lesson'. Some of these may also charge money.
 
+* [Hacking with Swift: 100 Days of Swift](https://hackingwithswift.com/100) by Paul Hudson
 * [Developing iOS 7 Apps for iPhone and iPad](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550) by Stanford (Objective-C)
 * [Developing iOS 11 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316) by Stanford (Swift)
 * [Complete iOS 11 and Swift course - Udemy](https://www.udemy.com/complete-ios-11-developer-course/) by Rob Percival
-* [iOS 11 & Swift 4 - The Complete iOS App Development Bootcamp - Udemy](https://www.udemy.com/ios-11-app-development-bootcamp/) by Angela Yu
 * [iOS tutorials on Lynda](http://www.lynda.com/iOS-training-tutorials/413-0.html)
 
 ## Tools
@@ -118,8 +118,8 @@ Third party options
 
 * **[Unity](https://unity3d.com)** allows you to write cross platform 2/3D games in C# or JavaScript. It provides the vast majority of the tools that you need to get started, and is appropriate for most iOS games
 * **[Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4)** offers a free alternative to Unity, but you have to pay a 5% royalty fee. Like Unity you can port your games to a variety of platforms
-* **SpriteKit** is a framework for iOS 7+ and OS X 10.9+ that allows for the development of sprite based 2D games in Xcode. If you aren't bothered about platform lock in and you want to develop a 2D game then this is probably your best bet
-* **SceneKit** is in OS X 10.8+ and iOS 8+. It can integrate with SpriteKit and hugely simplifies the amount of work needed to get 3D graphics on the screen (compared to OpenGL or Metal). If your developing a casual 3D game then SceneKit is a great option
+* **SpriteKit** is Apple's framework for iOS 7+ and macOS 10.9+ that allows for the development of sprite based 2D games in Xcode. If you aren't bothered about platform lock in and you want to develop a 2D game then this is probably your best bet
+* **SceneKit** is Apple's macOS 10.8+ and iOS 8+ 3D game framework. It can integrate with SpriteKit and hugely simplifies the amount of work needed to get 3D graphics on the screen (compared to OpenGL or Metal). If your developing a casual 3D game then SceneKit is a great option
 * **OpenGL/Metal** are the low-level APIs available on iOS for 3D graphics. Most developers will not need to use Metal as this is primarily targeted at game engine developers (and requires a lot more work to do basic 3D graphics). OpenGL is now reasonably easy to get started with thanks to GLKit (iOS 5+) but you still have to do a lot of C and manual memory management. For most casual games SpriteKit or SceneKit are better solutions, and for more complex games it will be easier to use a ready made engine like Unity. However, OpenGL is a good way of learning how 3D graphics work
 * **Cocos2D** is a framework similar to SpriteKit (it allows you to develop 2D games in Objective-C) however has the benefit of being cross platform. Cocos2D is a little older in its API style than SpriteKit, however has a wealth of tutorials and documentation available for it
 
@@ -128,11 +128,11 @@ Third party options
 ### Where can I get good advice?
 
 * [StackOverflow](http://stackoverflow.com/questions/tagged/ios)
+* [/r/iosprogramming](https://reddit.com/r/iosprogramming)
 * [Apple Developer Forums](https://forums.developer.apple.com)
 * [NSHipster](http://nshipster.com)
 * [objc.io](http://objc.io)
 * [Big Nerd Ranch](https://www.bignerdranch.com)
-* [/r/iosprogramming](https://reddit.com/r/iosprogramming)
 * [RayWenderlich.com](http://www.raywenderlich.com)
 
 ### Do I need to support iOS version X?
@@ -151,19 +151,19 @@ Here's a [great list of stats about iOS versions](https://david-smith.org/iosver
 
 You'll need to use the [UIAppearance](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/) APIs:
 
-```objc
-// AppDelegate.m
+```swift
+// AppDelegate.swift
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    ...
-    
-    UIFont *avenir = [UIFont fontWithName:@"Avenir" size:[UIFont systemFontSize]];
-    [UILabel appearance].font = avenir;
-    [UINavigationBar appearance].titleTextAttributes = @{NSFontAttributeName: avenir};
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+
+    let avenir = UIFont(name: "Avenir", size: UIFont.systemFontSize)
+    UILabel.appearance().font = avenir
+    if let avenir = avenir {
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.font: avenir]
+    }
     // You'll need to do this for other classes that display text
-    ...
-    
-    return YES;
+
+    return true
 }
 ```
 
@@ -171,37 +171,31 @@ You'll need to use the [UIAppearance](https://developer.apple.com/library/ios/do
 
 If you're an absolute beginner, you may wish to look into more convenient to use libraries like AFNetworking, but this is how you do make a basic request with no third-party code:
 
-```objc
-// Standard library JSON request to http://httpbin.org
+```swift
+// Standard JSON request to http://httpbin.org
 // Prepare the request
-NSURL *url = [NSURL URLWithString:@"http://httpbin.org/get"];
-NSURLRequest *request = [NSURLRequest requestWithURL:url];
+guard let url = URL(string: "http://httpbin.org/get") else { return }
+let request = URLRequest(url: url)
 
-[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+URLSession.shared.dataTask(with: request, completionHandler: { data, response, error in
     // This block will be executed on the main thread once the data task has completed.
-    
-    // You have to cast response to NSHTTPURLResponse, a subclass of NSURLResponse, to get the status code.
-    if ([(NSHTTPURLResponse*)response statusCode] == 200) {
+
+    // You have to cast the response to HTTPURLResponse to get the status code.
+    if (response as? HTTPURLResponse)?.statusCode == 200,
+        let data = data {
         // JSON is parsed into standard Cocoa classes such as NSArray, NSDictionary, NSString and NSNumber.
-        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-        NSLog(@"%@", json);
+        do {
+            let json = try JSONSerialization.jsonObject(with: data, options: [])
+            print(json)
+        } catch {
+            // Handle the error if it occurs
+            print(error.localizedDescription)
+        }
     }
-}] resume]; // "resume" begins the task
+}).resume() // Resume begins the URLSession task
 ```
 
-`NSURLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [AFNetworking](https://github.com/AFNetworking/AFNetworking) instead as this can reduce the amount of code you have to write:
-
-```objc
-AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-[manager GET:@"http://httpbin.org/get" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-    // Response object is an NSDictionary, like in the previous example
-    NSLog(@"JSON: %@", responseObject);
-} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-    //Handle the error case
-    NSLog(@"Error: %@", error);
-}];
-```
-
+`URLSession` was introduced in iOS 7 and OS X Mavericks. It provides a reasonably easy way to do concurrent network requests, however you may wish to use [AFNetworking](https://github.com/AFNetworking/AFNetworking) instead as this can reduce the amount of code you have to write.
 
 ### I want to build a client app for web service X. How do I get started?
 
@@ -249,29 +243,11 @@ It sure is. Have no fear:
 
 ### Why do Foundation classes start with NS?
 
-Objective-C doesn't support namespaces, so all classes are prefixed with the framework or developer abbreviation. NS = NextStep, which is the company that Apple bought in the 90s and was used to develop OS X and iOS. For your own classes Apple recommends that you use your own [two or three](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-1002226-BBCJECED) letters prefix, especially if you publish the code.
+Objective-C doesn't support namespaces, so all classes are prefixed with the framework or developer abbreviation, although Apple has been working to remove the NS prefix as much as they can now with Swift. NS stands for NextStep, which is the company that Apple bought in the 90s and was used to develop OS X and iOS. For your own classes Apple recommends that you use your own [two or three](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-1002226-BBCJECED) letters prefix, especially if you publish the code.
 
-### What is the difference between `+` and `-` methods in Objective-C?
+### What is the difference between `static`/`class` and normal functions?
 
-Methods that begin with a `+` are static class methods and are not tied to a particular instance of a class. Class methods are used as:
-
-```objc
-// This method declaration…
-+ (void)animateWithDuration:(NSTimeInterval)duration animations:(void(^)(void))animations;
-// is used like:
-[UIView animateWithDuration:x animations:^{ /* Animations go here */}];
-```
-
-Methods that begin with a `-` are instance methods, and are related to a single instance of a class:
-
-```objc
-// This method declaration…
-- (void)addSubview:(UIView*)subview;
-// is used like:
-[someViewInstance addSubview:someSubview];
-```
-
-The same feature exists in Swift, but the syntax is a little less bizarre. All instance methods just use `func` whereas all class methods use `class func`. There's also `static func` which behaves a bit differently.
+Methods defined with a `static` or `class` prefix are static class methods and are not tied to a particular instance of a class.
 
 ### What are extensions / categories?
 
@@ -279,50 +255,19 @@ The same feature exists in Swift, but the syntax is a little less bizarre. All i
 
 Unlike many other object-oriented programming languages, Objective-C has a dynamic runtime that you can use to add methods to existing classes. This reduces the need for subclassing, so can simplify your class hierarchies.
 
-Xcode provides a template for extensions, but here is a basic implementation of a map function for `NSArray`:
+Xcode provides a template for extensions, but here is a basic implementation of a log function for an array:
 
-```objc
-// NSArray+FAQ.h
-
-@interface NSArray (FAQ)
-
-/// @param mapper An Objective-C block which maps objects in the original array to objects in the new array
-/// @return An array of mapped objects
-- (NSArray*)map:(id(^)(id))mapper;
-
-@end
-
-// NSArray+FAQ.m
-
-@implementation NSArray (FAQ)
-
-- (NSArray*)map:(id (^)(id))mapper {
-    NSMutableArray *array = [NSMutableArray array];
-    for (id object in self) {
-        [array addObject:mapper(object)];
+```swift
+extension Array {
+    func log() {
+        print(self)
     }
-    return array;
 }
-
-@end
-
-// SomewhereElse.m
-
-#import "NSArray+FAQ.h"
-
-...
-
-NSArray *numbers = @[@1, @2, @3, @4];
-NSArray *strings = [numbers map:^id(NSNumber *num) {
-    return num.stringValue;
-}];
 ```
-
-Apple recommends that you use three letter prefixes when writing your own extensions (like with class names) to avoid clashing with other methods.
 
 ### Can I write an app for the Apple Watch in Objective-C?
 
-Yes. Before WatchKit was launched it was rumoured that it was Swift only, but to date (August 2015) all Apple frameworks work in Objective-C.
+Yes. Before WatchKit was launched it was rumoured that it was Swift only, but to date (March 2019) all Apple frameworks work in Objective-C.
 
 ## Cloud and Web
 
@@ -362,7 +307,7 @@ The [Human Interface Guidelines](https://developer.apple.com/library/prerelease/
 
 * Justify every pixel of your UI - is a control essential for most people?
 * Is this interaction obvious? A lot of apps use really interesting combinations of swipes, pinches and taps but make sure that your users will know how to use them.
-* Use Auto Layout and size classes. These make it a lot simpler to handle the 5 different screen sizes (iPhone 3.5", iPhone 4", iPhone 4.7", iPhone 5.5", iPad) than writing your layout code manually
+* Use Auto Layout and size classes. These make it a lot simpler to handle the *many* different screen sizes (such as iPhone SE iPhone XS, iPad Pro, and iPad in Split View) than writing your layout code manually
 
 ### I heard Interface Builder is evil. How do I do everything in code?
 
@@ -376,9 +321,12 @@ However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https
 
 ### What developer blogs can I read?
 
+* **[iOS Dev Weekly](https://iosdevweekly.com) - Weekly roundup of iOS development news and blog posts!**
+* **[iOS Dev Directory](https://iosdevdirectory.com) - Huge directory of iOS development blogs!**
+* [Official Swift Blog](https://swift.org/blog/)
 * [NSHipster](http://nshipster.com)
 * [objc.io](http://objc.io)
-* [Swift](https://developer.apple.com/swift/blog/)
+* [Antoine van der Lee](https://avanderlee.com)
 * [Ash Furrow](http://ashfurrow.com)
 * [Brent Simmons](http://inessential.com)
 * [NSBlog (Mike Ash)](https://mikeash.com/pyblog/)
@@ -388,25 +336,16 @@ However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https
 
 #### Programming specific
 
-* [Runtime](https://spec.fm/podcasts/runtime)
-* [Swift Unwrapped](https://spec.fm/podcasts/swift-unwrapped)
-* [Build and Analyze](http://5by5.tv/buildanalyze) (finished)
-* [Build Phase](http://podcasts.thoughtbot.com/buildphase)
-* [CocoaConf](http://cocoaconf.com/podcast)
+* [A Swiftly Tilting Planet](https://anchor.fm/a-swiftly-tilting-planet)
 * [Core Intuition](http://www.coreint.org)
-* [Debug](http://www.imore.com/debug)
-* [Developing Perspective](http://developingperspective.com)
-* [Edge Cases](http://edgecasesshow.com)
-* [Identical Cousins](http://identicalcousins.net) (finished)
-* [iDeveloper](http://ideveloper.tv)
-* [iOhYes](http://iohyespodcast.com)
-* [iPhreaks](http://iphreaksshow.com)
-* [Iterate](http://www.imore.com/iterate)
-* [NSBrief](http://nsbrief.com)
+* [iOS Dev Discussions by Sean Allen](https://anchor.fm/seanallen)
+* [Independence](https://independence.fm)
+* [iPhreaks](https://devchat.tv/iphreaks/)
 * [Ray Wenderlich](http://www.raywenderlich.com/rwpodcast)
-* [The Record](http://therecord.co)
 * [Release Notes](http://releasenotes.tv)
-* [Springboard](http://springboardshow.com) (finished?)
+* [Stacktrace](https://9to5mac.com/guides/stacktrace/)
+* [Swift by Sundell Podcast](https://www.swiftbysundell.com/podcast)
+* [Swift Unwrapped](https://spec.fm/podcasts/swift-unwrapped)
 * [Under the Radar](https://www.relay.fm/radar)
 
 #### Apple and technology general
@@ -422,7 +361,7 @@ However, the `NSConstraint` APIs aren't very friendly. Check out [Masonry](https
 
 ### Where can I find great third party code?
 
-[CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager used by Apple developers that makes it really easy to integrate open source code into your iOS or OS X app. Several sites, such as [Cocoa Controls](https://www.cocoacontrols.com/platforms/ios/controls?cocoapods=t) keep track of these.
+[CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager used by Swift developers that makes it really easy to integrate open source code into your iOS or OS X app. Several sites, such as [Cocoa Controls](https://www.cocoacontrols.com/platforms/ios/controls?cocoapods=t) keep track of these.
 
 ### Should I use CocoaPods/third party code?
 
@@ -461,7 +400,7 @@ From Apple's standpoint, yes. But please don't. They're annoying and [many peopl
 
 ### Which ad service should I use?
 
-When you're looking at picking an ad service you need to take into account the eCPM and the fill rate. The eCPM is how much money you make, on average, from 1000 ad impressions. Fill rate is the percentage of ad requests that were successfully responded to with an ad. Ideally this should be as close to 100% as possible. Generally [AdMob](http://www.google.com/ads/admob/) has a higher rate than [iAd](http://iad.apple.com).
+When you're looking at picking an ad service you need to take into account the eCPM and the fill rate. The eCPM is how much money you make, on average, from 1000 ad impressions. Fill rate is the percentage of ad requests that were successfully responded to with an ad. Ideally this should be as close to 100% as possible.
 
 **I'm keen to have some statistics here comparing average fill rate and eCPM for different services, if anyone has it**
 
@@ -471,7 +410,7 @@ Build an awesome app that attracts their attention 😀. You can't pay or bribe 
 
 ### Where should I advertise my app?
 
-Facebook, Twitter, your website, iAd, the web... Make sure you consider your target audience - there is little point in advertising via Facebook if your app is targeted at children under 13.
+Facebook, Twitter, your website, the web... Make sure you consider your target audience - there is little point in advertising via Facebook if your app is targeted at children under 13.
 
 ### My app isn't getting many reviews. What can I do?
 
